@@ -5,4 +5,4 @@
 * simple project built using vanilla javascript
 
 ## Screenshot
-![background-generator]("./img/background-gene.png")
+![](./img/background-gene.png)
