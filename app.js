@@ -1,10 +1,9 @@
-let content = document.getElementById("content");
-let input1 = document.getElementById("input1");
-let input2 = document.getElementById("input2");
+const content = document.getElementById("content");
+const input1 = document.getElementById("input1");
+const input2 = document.getElementById("input2");
+const body = document.querySelector("body");
 
-let body = document.querySelector("body");
-
-function changeBackground() {
+const changeBackground = () => {
     body.style.background = 
     "linear-gradient(to right, " +
     input1.value +
